@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.html.gz
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+.cache/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Legacy app build output (keep the directory, ignore contents except built file)
+legacy-html-app/node_modules/
+
+# Data files (root level only, not src/data/)
+/data/
+
+# Public data folder (Excel files now served from GitHub Releases)
+public/data/raw/
+
+# ISIN mapping project databases (large files, 82MB+ with isin_master table)
+projects/isin-mapping/database/
+projects/isin-mapping/scripts/database/
+
+# Screenshots and debug files
+scripts/*.png
+snapshot*.txt
+nul
+
+# Keep these for reference
+!legacy-html-app/dist/midcap-analysis-dashboard.html
+.vercel
+
+# Testing directory
+testing/
+
+# Claude instructions and settings (local only)
+CLAUDE.md
+.claude/
